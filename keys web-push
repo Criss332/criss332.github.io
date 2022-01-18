@@ -1,0 +1,12 @@
+{
+    "publicKey": "BOCuH-S3lasC9zS6Auo3YOn8b3wLPdCY90pDGYEwjVYhR6lt_s3AYpgwcksn1gPOVEFzF6Y_rU6aNFzxDJboe74",
+    "privateKey": "sGOd01xVQ1g3FCCBlD54UN4vtytc4L3jmJQGPkurP9g"
+}
+
+fs.writeFile(`tokens/${name}.json`, data, (err) => {
+    if (err) {
+        handlerResponse(res, `Error write`, 500);
+    }
+    handlerResponse(res, `Guardado`, 200);
+
+});
