@@ -50,7 +50,7 @@ const sendPush = (req, res) => {
             "body": "Subscribete a mi canal de YOUTUBE",
             "vibrate": [100, 50, 100],
             "image": "https://avatars2.githubusercontent.com/u/15802366?s=460&u=ac6cc646599f2ed6c4699a74b15192a29177f85a&v=4",
-            "act           ions": [{
+            "actions": [{
                 "action": "explore",
                 "title": "Go to the site"
             }]

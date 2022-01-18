@@ -47,5 +47,6 @@ export class AppComponent {
     }).then(sub=> console.log).catch(err=>console.log)
   }
 }
+//instalar service worker para utilizacion de notificaciones push y para que se de la opcion de instalar la pagina web como applicacion nativa del sistema
 
 
